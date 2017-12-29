@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*日历*/
+
+#calendar {
+    width: 98%;
+    border: 2px solid #A4A7B0;
+    height: 335px;
+    margin-left: 0.5%;
+}
+
+.month {
+    width: 92%;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 11px;
+    justify-content: space-between;
+}
+
+.year-month {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choose-year {
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.choose-month {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.arrow {
+    width: 3%;
+    height: 25px;
+}
+
+.arrow1 {
+    background: url(left.png) no-repeat 0 0 /100% 100%;
+    margin-left: 44px;
+}
+
+.arrow2 {
+    background: url(right.png) no-repeat 0 0 /100% 100%;
+    margin-right: 44px;
+}
+
+.month ul li {
+    color: #999;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    list-style: none;
+}
+
+.weekdays {
+    margin: 0;
+    color: #FFFFFF;
+    background: #A4A7B0;
+    width: 96.6%;
+    margin-top: 26px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 2.2%;
+}
+
+.weekdays li {
+    display: inline-block;
+    text-align: center;
+    color: #11616f;
+    font-size: 14px;
+    font-weight: 100;
+    width: 12.7%;
+}
+
+.days {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 14.2%;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 7px;
+    font-size: 12.78px;
+    color: rgb(14, 220, 235);
+    font-weight: 200;
+}
+
+.days li span span {
+    height: 29.5px;
+    width: 27px;
+    line-height: 29.5px;
+    display: inline-block;
+}
+
+.days li .class-30 {
+    background: url(bg_30.png) no-repeat 0 0 /100% 100%;
+}
+
+.days li .class-60 {
+    background: url(bg_60.png) no-repeat 0 0 /100% 100%;
+}
+
+.days li .class-3060 {
+    background: url(bg_3060.png) no-repeat 0 0 /100% 100%;
+}
+
+.days li .other-month {
+    padding: 5px;
+    color: #84a8ae;
+}
